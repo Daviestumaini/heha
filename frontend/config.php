@@ -1,6 +1,6 @@
 <?php
 // ---- Global configuration ----
-define('API_BASE_URL', getenv('HEHA_API_URL') ?: 'http://localhost:5000/api');
+define('API_BASE_URL', getenv('HEHA_API_URL') ?: 'https://heha-agency.onrender.com');
 
 if (session_status() === PHP_SESSION_NONE) {
     session_start();
